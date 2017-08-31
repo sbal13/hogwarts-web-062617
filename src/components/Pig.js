@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Pig = ({ attributes }) => {
-	const picturePath = `./hog-imgs/${attributes.name.toLowerCase().replace(/\s/, "_")}.jpg`
+	const picturePath = `./hog-imgs/${attributes.name.toLowerCase().replace(/\s/g, "_")}.jpg`
 	return (
 
 		<div>
